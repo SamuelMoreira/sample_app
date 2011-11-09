@@ -3,4 +3,8 @@ class UsersController < ApplicationController
     @title = "Sign Up"
   end
 
+  def show
+    @user = params[:id]
+  end
+
 end
